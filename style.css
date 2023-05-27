@@ -1,0 +1,75 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1rem auto;
+  max-width: 1000px;
+}
+
+aside,
+footer,
+header,
+main,
+section {
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+article {
+  background: #fed865;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+aside {
+  background: #ffaea2;
+  max-width: 300px;
+  height: fit-content;
+}
+
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  background: #d8b8fe;
+  margin-top: 0;
+}
+
+header {
+  background: #74d6f0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+#intro {
+  margin-bottom: 0;
+}
+
+#lonely-h1 {
+  margin-left: 1rem;
+}
+
+main {
+  background: #febdf2;
+  max-width: 636px;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+section {
+  background: #84e0a3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
